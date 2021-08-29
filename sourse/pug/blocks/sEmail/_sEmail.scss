@@ -5,6 +5,9 @@ td {
 a {
 	text-decoration: none;
 }
+p{
+	margin-bottom: 0;
+}
 .sEmail {
 	margin: 0;
 	padding: 0;
@@ -79,6 +82,40 @@ a {
 			font-size: 20px;
 			line-height: 120%;
 			color: #404040;
+		}
+		.info {
+			margin: 0;
+			width: 435px;
+			background: #f1f1f1;
+			border-radius: 20px;
+			padding-left: 24px;
+			padding-top: 18px;
+			padding-bottom: 18px;
+			font-size: 20px;
+			line-height: 120%;
+			color: #404040;
+		}
+	}
+	.enter {
+		&-title {
+			font-weight: bold;
+			font-size: 30px;
+			line-height: 120%;
+			text-align: center;
+			color: #404040;
+			padding-top: 38px;
+			padding-bottom: 52px;
+		}
+		&-img {
+			width: 498px;
+			height: 340px;
+			display: block;
+			margin: 0 auto;
+		}
+		&-market{
+			width: 119px;
+			height: 35px;
+			display: block;
 		}
 	}
 }
