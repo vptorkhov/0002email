@@ -94,6 +94,16 @@ p{
 			font-size: 20px;
 			line-height: 120%;
 			color: #404040;
+			&-link{
+				color:#13bbf2;
+				margin: 0;
+				width: 435px;
+				background: #f1f1f1;
+				border-radius: 20px;
+				font-size: 20px;
+				line-height: 120%;
+				font-weight: bold;
+			}
 		}
 	}
 	.enter {
@@ -116,6 +126,40 @@ p{
 			width: 119px;
 			height: 35px;
 			display: block;
+		}
+	}
+	.director{
+		&-title{
+			font-weight: bold;
+			font-size: 30px;
+			line-height: 120%;
+			text-align: center;
+			color: #404040;
+			padding-top: 23px;
+			padding-bottom: 52px;
+		}
+		&-img {
+			width: 254px;
+			height: 456px;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	.subscr{
+		&-title{
+			font-weight: bold;
+			font-size: 30px;
+			line-height: 120%;
+			text-align: center;
+			color: #404040;
+			padding-top: 56px;
+			padding-bottom: 35px;
+		}
+		&-img{
+			width: 358px;
+			height: 291px;
+			display: block;
+			margin: 0 auto;
 		}
 	}
 }
