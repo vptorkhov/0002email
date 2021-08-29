@@ -1,0 +1,77 @@
+// start .sEmail
+td {
+	border-width: 0;
+}
+.sEmail {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	.logo {
+		margin: 0;
+		padding: 0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.tel1 {
+		color: #404040;
+		font-size: 24px;
+		line-height: 29px;
+		letter-spacing: 0.02em;
+		display: block;
+		font-weight: bold;
+		position: absolute;
+		top: 41px;
+		right: 34px;
+	}
+	.img-activation {
+		width: 530px;
+		height: 393px;
+		display: block;
+		margin: 0 auto;
+	}
+	.p-activation {
+		max-width: 385px;
+		color: #ffffff;
+		position: absolute;
+		top: 213px;
+		left: 107px;
+		font-size: 36px;
+		line-height: 120%;
+		text-align: center;
+		font-weight: bold;
+		span {
+			color: #404040;
+		}
+	}
+	.control {
+		&-title {
+			text-align: center;
+			font-size: 25px;
+			line-height: 120%;
+			font-weight: bold;
+			padding-top: 46px;
+			padding-bottom: 52px;
+		}
+		&-img {
+			width: 600;
+			height: 344px;
+			display: block;
+			margin: 0 auto;
+		}
+		&-link {
+			padding-left: 76px;
+			padding-right: 76px;
+			padding-top: 16px;
+			padding-bottom: 16px;
+			color: #13bbf2;
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 120%;
+			text-align: center;
+			display: block;
+			margin: 0 auto;
+			width: 530px;
+			background: #f1f1f1;
+			border-radius: 20px;
+		}
+	}
+}

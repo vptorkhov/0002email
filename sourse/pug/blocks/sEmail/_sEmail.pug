@@ -1,0 +1,35 @@
+mixin sEmail(data)
+	// start sEmail
+	table.sEmail(border='0' cellpadding='0' cellspacing='0' width='100%')
+		tr
+			td(align='center')
+				center(style='max-width: 600px; width: 100%;')
+					//if gte mso 9
+						table(border='0' cellpadding='0' cellspacing='0' style='margin:0; padding:0')
+							tr
+								td
+					table(border='1px solid black' cellpadding='0' cellspacing='0' style='margin:0; padding:0' width='100%')
+						//- границу уберу после верстки
+						tr(style="height:80px")
+							td(style="position:relative;")
+								img.logo(src="img/svg/logo.svg" alt="" border="0")
+								a.tel1(href="tel:+78007757427") 8 (800) 775-74-27
+						tr
+							td(style="padding-top:35px;position:relative")
+								img.img-activation(src="img/email-1.png" alt="" border="0" )
+								p.p-activation!=`Ваша учетная запись <span>Fusion POS</span></br>успешно активирована`
+						tr
+							td
+								p.control-title Панель управления:
+						tr
+							td
+								img.control-img(src="img/email-2.png" alt="" border="0")
+						tr
+							td
+								a.control-link(href="https://shashlichniy-dvor.fusion24.ru/")  https://shashlichniy-dvor.fusion24.ru/
+						tr
+							td
+								a.
+					//if gte mso 9
+
+	// end sEmail
