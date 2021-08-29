@@ -2,17 +2,17 @@
 td {
 	border-width: 0;
 }
+a {
+	text-decoration: none;
+}
 .sEmail {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	.logo {
-		margin: 0;
-		padding: 0;
-		font-family: Arial, Helvetica, sans-serif;
-		position: absolute;
-		top: 36px;
-		left: 37px;
+		width: 157px;
+		height: 41px;
+		padding-left: 37px;
 	}
 	.tel1 {
 		color: #404040;
@@ -21,28 +21,26 @@ td {
 		letter-spacing: 0.02em;
 		display: block;
 		font-weight: bold;
-		position: absolute;
-		top: 41px;
-		right: 34px;
+		text-align: right;
+		padding-right: 34px;
 	}
-	.img-activation {
+	.activation {
+		background-image: url(https://vptorkhov.github.io/0002email/public/img/email-1.png);
 		width: 530px;
 		height: 393px;
 		display: block;
 		margin: 0 auto;
-	}
-	.p-activation {
-		max-width: 385px;
-		color: #ffffff;
-		position: absolute;
-		top: 213px;
-		left: 107px;
-		font-size: 36px;
-		line-height: 120%;
-		text-align: center;
-		font-weight: bold;
-		span {
-			color: #404040;
+		p {
+			max-width: 385px;
+			color: #ffffff;
+			font-size: 36px;
+			line-height: 120%;
+			text-align: center;
+			font-weight: bold;
+			padding-top: 170px;
+			span {
+				color: #404040;
+			}
 		}
 	}
 	.control {
@@ -55,14 +53,12 @@ td {
 			padding-bottom: 52px;
 		}
 		&-img {
-			width: 600;
+			width: 600px;
 			height: 344px;
 			display: block;
 			margin: 0 auto;
 		}
 		&-link {
-			padding-left: 76px;
-			padding-right: 76px;
 			padding-top: 16px;
 			padding-bottom: 16px;
 			color: #13bbf2;
@@ -75,6 +71,14 @@ td {
 			width: 530px;
 			background: #f1f1f1;
 			border-radius: 20px;
+		}
+	}
+	.info-table {
+		.label {
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 120%;
+			color: #404040;
 		}
 	}
 }
