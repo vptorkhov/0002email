@@ -5,7 +5,7 @@ td {
 a {
 	text-decoration: none;
 }
-p{
+p {
 	margin-bottom: 0;
 }
 .sEmail {
@@ -94,8 +94,8 @@ p{
 			font-size: 20px;
 			line-height: 120%;
 			color: #404040;
-			&-link{
-				color:#13bbf2;
+			&-link {
+				color: #13bbf2;
 				margin: 0;
 				width: 435px;
 				background: #f1f1f1;
@@ -122,14 +122,14 @@ p{
 			display: block;
 			margin: 0 auto;
 		}
-		&-market{
+		&-market {
 			width: 119px;
 			height: 35px;
 			display: block;
 		}
 	}
-	.director{
-		&-title{
+	.director {
+		&-title {
 			font-weight: bold;
 			font-size: 30px;
 			line-height: 120%;
@@ -145,8 +145,8 @@ p{
 			margin: 0 auto;
 		}
 	}
-	.subscr{
-		&-title{
+	.subscr {
+		&-title {
 			font-weight: bold;
 			font-size: 30px;
 			line-height: 120%;
@@ -155,11 +155,53 @@ p{
 			padding-top: 56px;
 			padding-bottom: 35px;
 		}
-		&-img{
+		&-img {
 			width: 358px;
 			height: 291px;
 			display: block;
 			margin: 0 auto;
+		}
+	}
+	.footer {
+		background: #f1f1f1;
+		&-btn {
+			background-color: #13bbf2;
+			border-radius: 20px;
+			color: #ffffff;
+			cursor: pointer;
+			display: inline-block;
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 120%;
+			padding: 17px 0;
+			width: 530px;
+			text-align: center;
+		}
+		.thanks {
+			font-weight: bold;
+			font-size: 30px;
+			line-height: 120%;
+			text-align: center;
+			color: #13bbf2;
+			padding-top: 26px;
+			padding-bottom: 26px;
+		}
+		.appeal {
+			font-size: 20px;
+			line-height: 120%;
+			text-align: center;
+			color: #404040;
+			padding-bottom: 26px;
+		}
+		.tel2 {
+			color: #404040;
+			font-size: 24px;
+			line-height: 29px;
+			letter-spacing: 0.02em;
+			display: block;
+			font-weight: bold;
+			text-align: center;
+			padding-bottom: 56px;
 		}
 	}
 }

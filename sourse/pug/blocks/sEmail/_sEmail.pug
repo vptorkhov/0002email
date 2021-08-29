@@ -8,7 +8,7 @@ mixin sEmail(data)
 						table(border='0' cellpadding='0' cellspacing='0' style='margin:0; padding:0')
 							tr
 								td
-					table(border='1px solid black' cellpadding='0' cellspacing='0' style='margin:0; padding:0' width='100%')
+					table(border='0' cellpadding='0' cellspacing='0' style='margin:0; padding:0' width='100%')
 						//- границу уберу после верстки
 						tr
 							td
@@ -144,6 +144,24 @@ mixin sEmail(data)
 											p.label Пароль
 										td(style="padding-left:20px;padding-bottom:17px")
 											p.info 1235658896
+						tr
+							td
+								table(border='0' cellpadding='0' cellspacing='0' width='100%').footer
+									tr
+										td(style="padding-left:35px;padding-right:35px;padding-top:42px;")
+											a.footer-btn(href="#") Быстрое начало работы
+									tr
+										td(style="padding-left:35px;padding-right:35px;padding-top:18px;")
+											a.footer-btn(href="#") Документация по программе
+									tr
+										td
+											p.thanks!=`Спасибо, что выбрали</br>Fusion POS!`
+									tr
+										td(style="padding-left:35px;padding-right:35px;")
+											p.appeal В случае возникновения каких-либо проблем или сложностей в работе, вы можете обратиться по телефону:
+									tr
+										td
+											a.tel2(href="tel:+78007757427") 8 (800) 775-74-27
 					//if gte mso 9
 
 	// end sEmail
